@@ -2,13 +2,18 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="=utf-8">
-        <title>Contact Form</title>
+        <title>Contact Me!</title>
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <script src="https://kit.fontawesome.com/fac529f178.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <form action="https://formsubmit.co/adrijana.milanovic.ottometric@gmail.com" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
             <div class="title">
                 <h2>CONTACT</h2>
             </div>
@@ -34,7 +39,6 @@
                 <a href="https://github.com/MAdrijana" class="fa fa-github"></a>
                 <a href="https://www.linkedin.com/in/adrijana-milanovic/" class="fa-brands fa-linkedin"></a>
             </div>
-
         </form>
     </body>
 </html>
