@@ -111,3 +111,36 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
         width: 100%;
     }
 }
+.footer-container{
+    width: 60%;
+    margin: 10px auto 3px;
+    padding: 30px;
+    border-top: 4px solid white;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-container p{
+    margin-top: 10px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-container span{
+    color:rgb(1, 1, 20);
+    font-size: 18px;
+    font-weight: 800;
+}
+.footer-container input{
+    background-color:white;
+    letter-spacing: 2px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 6px;
+}
+.btn9 {
+   width: 100px;
+   height: 40px;
+   box-shadow: rgba(255, 255, 255, 0.459);
+}
